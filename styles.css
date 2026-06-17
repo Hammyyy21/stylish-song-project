@@ -1,105 +1,30 @@
 body {
-   font-family: Oxygen, sans-serif;
-   /* Sets the font to Arial, or any sans-serif if Arial is missing */
-
-
-   background: radial-gradient(circle, white, lightgray);
-   /* Creates a background that starts white at the center
-      and fades to light gray at the edges */
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, white, lightgray);
 }
-
 
 h1 {
-   color: Red;
-   /* Sets text color to Red*/
-
-
-   padding: 8px;
-   /* Adds 8 pixels of space inside the element around the text */
-
-
-   text-shadow: 5px 5px 6px gray;
-   /* Adds a shadow to the text:
-      - 5px horizontal offset (right)
-      - 5px vertical offset (down)
-      - 6px blur radius (softness)
-      - gray color */
+    color: darkblue;
+    padding: 8px;
+    text-shadow: 5px 5px 6px gray;
 }
-
 
 p {
-   color: white;
-   /* Sets lyric text color to white */
-
-
-   width: 350px;
-   /* Restricts the width of lyric lines to 350 pixels */
-
-
-   font-size: 16px;
-   /* Sets text size */
-
-
-   padding: 10px;
-   /* Adds breathing room inside the paragraph box */
-
-
-   background: linear-gradient(to bottom right, darkblue, skyblue);
-   /* Creates a gradient background flowing from top-left to bottom-right,
-      starting with darkblue and ending with skyblue */
-
-
-   box-shadow: 5px 5px 6px gray;
-   /* Adds a shadow behind the paragraph box for depth */
-
-
-   border-radius: 5px;
-   /* Rounds the corners of the box by 5 pixels */
+    color: white;
+    width: 350px;
+    font-size: 16px;
+    padding: 10px;
+    background: linear-gradient(to bottom right, darkblue, skyblue);
+    box-shadow: 5px 5px 6px gray;
+    border-radius: 5px;
 }
 
-
-p {
-   color: white;
-   /* Sets lyric text color to white */
-
-
-   width: 350px;
-   /* Restricts the width of lyric lines to 350 pixels */
-
-
-   font-size: 16px;
-   /* Sets text size */
-
-
-   padding: 10px;
-   /* Adds breathing room inside the paragraph box */
-
-
-   background: linear-gradient(to bottom right, darkblue, skyblue);
-   /* Creates a gradient background flowing from top-left to bottom-right,
-      starting with darkblue and ending with skyblue */
-
-
-   box-shadow: 5px 5px 6px gray;
-   /* Adds a shadow behind the paragraph box for depth */
-
-
-   border-radius: 5px;
-   /* Rounds the corners of the box by 5 pixels */
-}
-
-
-/* Selects ONLY the 5th paragraph element */
 p:nth-child(5) {
-   background: revert;
-   box-shadow: revert;
-   padding: revert;
-   /* 'revert' resets these properties to the browser's default,
-      effectively removing the custom styling for this specific line */
+    background: revert;
+    box-shadow: revert;
+    padding: revert;
 }
-
 
 a {
-   font-size: 12px;
-   /* Makes the link text smaller */
+    font-size: 12px;
 }
